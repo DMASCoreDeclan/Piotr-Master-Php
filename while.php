@@ -13,7 +13,7 @@ while ($attempts < $maxAttempts) {
     echo "Correct! You've unlocked the treasure! 💎\n";
     break;
   } elseif ($attempts == $maxAttempts) {
-    echo "Out of attempts! The treseaure remains locked. 🔒 \n";
+    echo "Out of attempts! The treasure remains locked. 🔒 \n";
   } else {
     echo "Wrong! Try again. Attempts left: " . ($maxAttempts - $attempts) . "\n";
   }
